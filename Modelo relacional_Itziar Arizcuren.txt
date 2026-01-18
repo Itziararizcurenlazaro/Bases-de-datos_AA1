@@ -1,0 +1,11 @@
+MODELO RELACIONAL – ACADEMIA DE MANUALIDADES
+
+departamento [#id, nombre, descripcion, presupuesto, fecha_creacion, activo, aula, email]
+
+profesor [#id, nombre, apellidos, email, especialidad, fecha_contratacion, salario, activo,-id_departamento, -id_supervisor]
+
+curso [#id, nombre, tipo_manualidad, nivel, duracion_horas, precio, fecha_inicio, activo, -id_profesor]
+
+alumno [#id, nombre, apellidos, email, fecha_nacimiento, nivel, activo, teléfono, dirección]
+
+matricula [#id, fecha_matricula, estado, pagado, nota_final, importe_total, metodo_pago, fecha_baja, -id_alumno, -id_curso]
