@@ -10,7 +10,7 @@ EXPLICACIÓN DE LOS DOCUMENTOS ENTREGADOS:
 
 
 
-* **Creacion de tablas\_itziar arizcuren.sql:**Script SQL que contiene la creación de todas las tablas de la base de datos de la academia de manualidades, incluyendo claves primarias, claves foráneas y restricciones.
+* **Creacion de tablas\_itziar arizcuren.sql:** Script SQL que contiene la creación de todas las tablas de la base de datos de la academia de manualidades, incluyendo claves primarias, claves foráneas y restricciones.
 
 
 
@@ -33,4 +33,5 @@ EXPLICACIÓN DE LOS DOCUMENTOS ENTREGADOS:
 **Notas adicionales**:
 
 La relación N:M se establece entre las entidades alumno y curso, y se resuelve mediante la tabla intermedia matricula, que además almacena información adicional como la fecha de matrícula, el estado, el pago, la nota final y el importe.
+
 
